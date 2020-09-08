@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0058BC512507647C0012CBAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0058BC502507647C0012CBAC /* AppDelegate.m */; };
+		0058BC542507647C0012CBAC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0058BC532507647C0012CBAC /* SceneDelegate.m */; };
+		0058BC572507647C0012CBAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0058BC562507647C0012CBAC /* ViewController.m */; };
+		0058BC5A2507647C0012CBAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0058BC582507647C0012CBAC /* Main.storyboard */; };
+		0058BC5C2507647F0012CBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0058BC5B2507647F0012CBAC /* Assets.xcassets */; };
+		0058BC5F2507647F0012CBAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0058BC5D2507647F0012CBAC /* LaunchScreen.storyboard */; };
+		0058BC622507647F0012CBAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0058BC612507647F0012CBAC /* main.m */; };
+		7DBDA81E74CF281410C47BBA /* Pods_groupDeomo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859D57F63FEAE0C95E5C70CE /* Pods_groupDeomo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0058BC4C2507647C0012CBAC /* groupDeomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = groupDeomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0058BC4F2507647C0012CBAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0058BC502507647C0012CBAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0058BC522507647C0012CBAC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0058BC532507647C0012CBAC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0058BC552507647C0012CBAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0058BC562507647C0012CBAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0058BC592507647C0012CBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0058BC5B2507647F0012CBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0058BC5E2507647F0012CBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0058BC602507647F0012CBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0058BC612507647F0012CBAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		859D57F63FEAE0C95E5C70CE /* Pods_groupDeomo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_groupDeomo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		983CE32A13C55E7707605E32 /* Pods-groupDeomo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-groupDeomo.debug.xcconfig"; path = "Target Support Files/Pods-groupDeomo/Pods-groupDeomo.debug.xcconfig"; sourceTree = "<group>"; };
+		C977AD81269CF35809C6F8AD /* Pods-groupDeomo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-groupDeomo.release.xcconfig"; path = "Target Support Files/Pods-groupDeomo/Pods-groupDeomo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0058BC492507647C0012CBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DBDA81E74CF281410C47BBA /* Pods_groupDeomo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0058BC432507647C0012CBAC = {
+			isa = PBXGroup;
+			children = (
+				0058BC4E2507647C0012CBAC /* groupDeomo */,
+				0058BC4D2507647C0012CBAC /* Products */,
+				8976877A652A4B1CF0C3718B /* Pods */,
+				649D29CE9533BF3219844B2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0058BC4D2507647C0012CBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0058BC4C2507647C0012CBAC /* groupDeomo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0058BC4E2507647C0012CBAC /* groupDeomo */ = {
+			isa = PBXGroup;
+			children = (
+				0058BC4F2507647C0012CBAC /* AppDelegate.h */,
+				0058BC502507647C0012CBAC /* AppDelegate.m */,
+				0058BC522507647C0012CBAC /* SceneDelegate.h */,
+				0058BC532507647C0012CBAC /* SceneDelegate.m */,
+				0058BC552507647C0012CBAC /* ViewController.h */,
+				0058BC562507647C0012CBAC /* ViewController.m */,
+				0058BC582507647C0012CBAC /* Main.storyboard */,
+				0058BC5B2507647F0012CBAC /* Assets.xcassets */,
+				0058BC5D2507647F0012CBAC /* LaunchScreen.storyboard */,
+				0058BC602507647F0012CBAC /* Info.plist */,
+				0058BC612507647F0012CBAC /* main.m */,
+			);
+			path = groupDeomo;
+			sourceTree = "<group>";
+		};
+		649D29CE9533BF3219844B2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				859D57F63FEAE0C95E5C70CE /* Pods_groupDeomo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8976877A652A4B1CF0C3718B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				983CE32A13C55E7707605E32 /* Pods-groupDeomo.debug.xcconfig */,
+				C977AD81269CF35809C6F8AD /* Pods-groupDeomo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0058BC4B2507647C0012CBAC /* groupDeomo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0058BC652507647F0012CBAC /* Build configuration list for PBXNativeTarget "groupDeomo" */;
+			buildPhases = (
+				BF03063B58C85D9CD842C5D5 /* [CP] Check Pods Manifest.lock */,
+				0058BC482507647C0012CBAC /* Sources */,
+				0058BC492507647C0012CBAC /* Frameworks */,
+				0058BC4A2507647C0012CBAC /* Resources */,
+				66374E25B3F674B296BE2B07 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = groupDeomo;
+			productName = groupDeomo;
+			productReference = 0058BC4C2507647C0012CBAC /* groupDeomo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0058BC442507647C0012CBAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = a;
+				TargetAttributes = {
+					0058BC4B2507647C0012CBAC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 0058BC472507647C0012CBAC /* Build configuration list for PBXProject "groupDeomo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0058BC432507647C0012CBAC;
+			productRefGroup = 0058BC4D2507647C0012CBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0058BC4B2507647C0012CBAC /* groupDeomo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0058BC4A2507647C0012CBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0058BC5F2507647F0012CBAC /* LaunchScreen.storyboard in Resources */,
+				0058BC5C2507647F0012CBAC /* Assets.xcassets in Resources */,
+				0058BC5A2507647C0012CBAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66374E25B3F674B296BE2B07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-groupDeomo/Pods-groupDeomo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-groupDeomo/Pods-groupDeomo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-groupDeomo/Pods-groupDeomo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF03063B58C85D9CD842C5D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-groupDeomo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0058BC482507647C0012CBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0058BC572507647C0012CBAC /* ViewController.m in Sources */,
+				0058BC512507647C0012CBAC /* AppDelegate.m in Sources */,
+				0058BC622507647F0012CBAC /* main.m in Sources */,
+				0058BC542507647C0012CBAC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0058BC582507647C0012CBAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0058BC592507647C0012CBAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0058BC5D2507647F0012CBAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0058BC5E2507647F0012CBAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0058BC632507647F0012CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0058BC642507647F0012CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0058BC662507647F0012CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983CE32A13C55E7707605E32 /* Pods-groupDeomo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = groupDeomo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JB.groupDeomo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0058BC672507647F0012CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C977AD81269CF35809C6F8AD /* Pods-groupDeomo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = groupDeomo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JB.groupDeomo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0058BC472507647C0012CBAC /* Build configuration list for PBXProject "groupDeomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0058BC632507647F0012CBAC /* Debug */,
+				0058BC642507647F0012CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0058BC652507647F0012CBAC /* Build configuration list for PBXNativeTarget "groupDeomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0058BC662507647F0012CBAC /* Debug */,
+				0058BC672507647F0012CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0058BC442507647C0012CBAC /* Project object */;
+}

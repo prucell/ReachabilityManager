@@ -1,0 +1,6 @@
+framework module JBQReachabilityManager {
+  umbrella header "JBQReachabilityManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
